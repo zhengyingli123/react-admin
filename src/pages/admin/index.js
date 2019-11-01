@@ -1,6 +1,7 @@
 import React from 'react';
-import Style from './index.module.less'
-import { Layout, Menu, Icon } from 'antd';
+// import Style from './index.module.less'
+// import { Layout, Menu, Icon } from 'antd';
+import { Layout } from 'antd';
 import CustomSlider from '../../components/customSlider';
 
 const { Header, Content, Footer, Sider } = Layout;

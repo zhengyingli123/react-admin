@@ -1,5 +1,5 @@
-import React,{Fragment} from 'react';
-import {HashRouter,Link,Switch,Route,withRouter,Redirect} from 'react-router-dom'
+import React from 'react';
+import {HashRouter,Switch,Route,Redirect} from 'react-router-dom'
 import Login from './pages/login'
 import Admin from './pages/admin'
 import Home from './pages/home'

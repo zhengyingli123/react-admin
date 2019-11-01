@@ -1,6 +1,7 @@
 import React from 'react'
 import {withRouter} from 'react-router-dom'
-import { Menu, Icon } from 'antd';
+// import { Menu, Icon } from 'antd';
+import { Menu} from 'antd';
 
 const { SubMenu } = Menu;
 const root=[
@@ -50,7 +51,7 @@ class CustomSlider extends React.Component{
             if(item.children){
                 // 渲染次级
                 return(
-                    <SubMenu title={item.name}>
+                    <SubMenu key={index} title={item.name}>
                         {this.renderItem(item.children)}
                     </SubMenu>
                 )
